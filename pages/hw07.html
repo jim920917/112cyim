@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/hw07.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">  
+            <div class="logo">
+                <img src="../assets/img/img01.jpg" width="250px">
+            </div>
+            <div class="meun">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="../pages/hw01.html">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </div>  
+            <div>
+                <a href="" >
+                    <img src="../assets/img/car.png" width="30px" height="30px">
+                </a>    
+            </div>
+         </div>
+    </div>
+         <nav class="navigationbar">
+            <div class="dropdown">
+                <button class="dropbtn">手機</button>
+                <div class="dropdown-content">
+                    <a href="#category1">Category 1</a>
+                    <a href="#category2">Category 2</a>
+                    <a href="#category3">Category 3</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <button class="dropbtn">其他</button>
+                <div class="dropdown-content">
+                    <a href="#category1">Category 1</a>
+                    <a href="#category2">Category 2</a>
+                    <a href="#category3">Category 3</a>
+                </div>
+            </div>
+        </nav>
+<h1>⚽️男女通吃四股辮手機掛繩⚽️</h1>
+<div class="title">
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img class="img01" src="../assets/img/img29.jpg">
+        </div>
+        
+        <div class="mySlides">
+            <img class="img01" src="../assets/img/img32pg.jpg">
+        </div>
+    
+        <div class="mySlides">
+         <img class="img01" src="../assets/img/img33.jpg">
+        </div>
+    
+        <div class="mySlides">
+            <img class="img01" src="../assets/img/img35.jpg">
+           </div>
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+
+    <div class="text01">
+        <h2>產品介紹</h2>
+        <p>花系列700元<br>
+            半花+伸縮系列600元<br>
+            全伸縮系列400元<br>
+            男女都可用的編織掛繩來啦🥳<br>
+            這款整條都可以伸縮<br>
+            短至證件掛繩長至手機掛繩<br>
+            一條掛繩男女朋友都可通用好划算！<br>
+            純手工編織🧶</p>
+        <div class="button">
+            <div class="button1">
+                <input type="button" value="加入購物車" name="按鈕名稱" style="width:150px;height:50px;">
+            </div> 
+            <div class="button2">
+                <input type="button" value="直接購買" name="按鈕名稱" style="width:150px;height:50px;">
+            </div>
+        </div>
+        <textarea class="comment" rows="12" ></textarea>   
+    </div>      
+</div>         
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+  
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+  
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+  
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) { slideIndex = 1; }
+      if (n < 1) { slideIndex = slides.length; }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+</script>
+</body>
+</html>

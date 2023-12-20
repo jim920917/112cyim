@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/hw06.css">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">  
+            <div class="logo">
+                <img src="../assets/img/img01.jpg" width="250px">
+            </div>
+            <div class="meun">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="../pages/hw01.html">Shop</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Account</a></li>
+                </ul>
+            </div>  
+            <div>
+                <a href="" >
+                    <img src="../assets/img/car.png" width="30px" height="30px">
+                </a>    
+            </div>
+         </div>
+    </div>
+         <nav class="navigationbar">
+            <div class="dropdown">
+                <button class="dropbtn">手機</button>
+                <div class="dropdown-content">
+                    <a href="#category1">Category 1</a>
+                    <a href="#category2">Category 2</a>
+                    <a href="#category3">Category 3</a>
+                </div>
+            </div>
+    
+            <div class="dropdown">
+                <button class="dropbtn">其他</button>
+                <div class="dropdown-content">
+                    <a href="#category1">Category 1</a>
+                    <a href="#category2">Category 2</a>
+                    <a href="#category3">Category 3</a>
+                </div>
+            </div>
+        </nav>
+<h1>🪻桔梗鏤空花花證件掛繩🪻</h1>
+<div class="title">
+    <div class="slideshow-container">
+        <div class="mySlides">
+            <img class="img01" src="../assets/img/img05.jpg">
+        </div>
+        
+        <div class="mySlides">
+            <img class="img01" src="../assets/img/img06.jpg">
+        </div>
+    
+        <div class="mySlides">
+         <img class="img01" src="../assets/img/img22.jpg">
+        </div>
+
+        <div class="mySlides">
+            <img class="img01" src="../assets/img/img23.jpg">
+        </div>
+
+        <div class="mySlides">
+            <img class="img01" src="../assets/img/img34.jpg">
+        </div>
+
+        <div class="mySlides">
+            <img class="img01" src="../assets/img/img12.jpg">
+        </div>
+            
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+    </div>
+
+    <div class="text01">
+        <h2>產品介紹</h2>
+        <p>💰350元<br>
+        厭倦了工作/讀書 一塵不變的生活了嗎？<br>
+        看膩了自己的證件掛繩了嗎？<br>
+        快換上花花證件掛繩來為生活增添一點新意<br>    
+        🔸此款實際會以兩邊各三朵花為主<br>
+        （小編也覺得三朵花的比例會比較好看<br>
+        可惜姐姐不願意再拆掉幫我重做一次<br>
+        她說比例不好看的留給自己背<br>
+        但織給大家的一定要是比例最好的🌝<br></p>
+        <div class="button">
+            <div class="button1">
+                <input type="button" value="加入購物車" name="按鈕名稱" style="width:150px;height:50px;">
+            </div> 
+            <div class="button2">
+                <input type="button" value="直接購買" name="按鈕名稱" style="width:150px;height:50px;">
+            </div>
+        </div>
+        <textarea class="comment" rows="12" ></textarea>   
+    </div>      
+</div>         
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+  
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+  
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+  
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) { slideIndex = 1; }
+      if (n < 1) { slideIndex = slides.length; }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+</script>
+</body>
+</html>
