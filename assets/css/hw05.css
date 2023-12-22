@@ -1,8 +1,11 @@
 * {
-    background-color: #faedcd;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+
+body{
+    background-color: #faedcd;
 }
 
 .navbar {
@@ -221,4 +224,50 @@ input:hover {
     color: #bc6c25;
     background-color: #fff;
     border: 2px #bc6c25 solid;
+}
+
+.footer {
+    background-color: black;
+    color: #a19d9d;
+    font-size: 14px;
+    padding: 60px 0 20px;
+}
+
+.footer p {
+    color: #a19d9d;
+}
+
+.footer h3 {
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.footer-col2 {
+    width: 15%;
+}
+
+.footer-col2 img {
+    width: 70%;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.footer-col4 {
+    text-decoration: none;
+}
+
+
+.ig {
+    width: 100px;
+    height: 100px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
