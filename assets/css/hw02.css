@@ -226,6 +226,21 @@ input:hover {
     border: 2px #bc6c25 solid;
 }
 
+.buyer{
+    margin: 2%;
+    border: solid black;
+    background-color: #f1faee;
+    border-radius: 10px;
+}
+
+.consumer_name{
+    font-size: 25px;
+}
+
+.respond{
+    font-size: 20px;
+}
+
 .footer {
     background-color: black;
     color: #a19d9d;
