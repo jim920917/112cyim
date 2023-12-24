@@ -207,7 +207,7 @@ p {
 .producutimg1 p,
 .producutimg2 p,
 .producutimg3 p {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     margin-top: 5%;
 }
@@ -221,7 +221,7 @@ p {
 .producutimg4 p,
 .producutimg5 p,
 .producutimg6 p {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     margin-top: 5%;
 }
@@ -276,14 +276,15 @@ p {
     width: 1000px;
     margin: 0 auto;
     height: 30px;
-    background-color: #fff;
+    background-color: #e5b993;
     border-radius: 3px;
     padding-left: 10px;
+    border: solid;
 }
 
 .item_header div {
     width: 200px;
-    color: #888;
+    color: #333;
     line-height: 30px;
 }
 
@@ -310,7 +311,67 @@ p {
     margin-top: 20px;
 }
 
+.count input {
+    width: 40px;
+    height: 30px;
+    padding: 5px;
+}
+
 .body {
     background-color: rgba(0, 0, 0, .2);
 }
 
+.cart-info img {
+    width: 10%;
+}
+
+.cart-page {
+    margin: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.cart-info {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+th {
+    text-align: left;
+    padding: 5px;
+    color: #fff;
+    background: black;
+    font-weight: normal;
+}
+
+.check {
+    display: inline-block;
+    background-color: rgb(219, 119, 58);
+    color: #333;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+}
+
+.container4 {
+    margin: 50px;
+    margin-left: 45%;
+    margin-right: 40%;
+    text-align: left;
+}
+
+.cart-info2 {
+    margin: 50px;
+    margin-left: 45%;
+    margin-right: 40%;
+    text-align: left;
+}
+
+.cart-info2 img {
+    width: 70%;
+}
