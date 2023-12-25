@@ -1,9 +1,138 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-repeat: no-repeat;
-    background-color: #faedcd;
-    background-size: 40%;
-    background-position: center;
-  }
+  background-repeat: no-repeat;
+  background-color: #faedcd;
+  background-size: 40%;
+  background-position: center;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+
+}
+
+.meun {
+  display: flex;
+  margin-left: 120%;
+  text-align: right;
+}
+
+.meun ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.meun ul li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+p {
+  color: black;
+}
+
+.container {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 35px;
+  padding-right: 35px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigationbar {
+  background-color: #333;
+  overflow: hidden;
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  word-spacing: 20%;
+}
+
+.navigationbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navigationbar a:hover {
+  background-color: red;
+  color: black;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  font-family: inherit;
+  background-color: #333;
+  margin: 0;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.comment{
+  outline: none;
+  background-color: white;
+  border: 1px solid black;
+  margin-top: 50px;
+  font-size: 15px;
+  width: 100%;
+  color: black ;
+  /*display: block;
+  margin: auto;*/
+}
+
+.button{
+  display: flex;
+}
+
+
+
   .container {
     display: flex;
     justify-content: center;

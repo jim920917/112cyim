@@ -1,0 +1,80 @@
+.row {
+    padding: 5%;
+    display: block;
+    margin: auto;
+}
+
+.info {
+    font-family: 標楷體;
+    flex-direction: column;
+    width: 40%;
+    display: block;
+    margin: auto;
+    background-color: #faedcd;
+    border-style: solid;
+}
+
+.pagetitle {
+    border-radius: 20px;
+    width: 100%;
+    padding-top: 5%;
+    color: black;
+    font-size: 40px;
+    font-family: 標楷體;
+    text-align: center;
+    line-height: 110%;
+    margin-bottom: 24px;
+    background-color: #faedcd;
+}
+
+.info_field {
+    padding-left: 30%;
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+    line-height: 135%;
+    padding-bottom: 3%;
+    background-color: #faedcd;
+}
+
+.info_title {
+    width: 25%;
+    color: #8f8e8d;
+    word-wrap: break-word;
+    background-color: ##faedcd;
+}
+
+.info_content {
+    color: #211f1d;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    background-color: #faedcd;
+}
+
+.back,
+.start {
+    padding: 0% 0% 3% 0%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.button02 {
+    background-color: #faedcd;
+    text-decoration: none;
+    color: black;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.button02:hover {
+    transform: scale(1.2);
+    background-color: #dad7cd;
+}
+
+.info_content {
+    margin-top: -0.5%;
+}
