@@ -1,0 +1,224 @@
+<%@ page import = "java.sql.*, java.util.*"%>
+<%@ page language="java" contentType="text/html" pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../assets/css/team.css">
+</head>
+<body>
+<%request.setCharacterEncoding("utf-8");%>
+    <div class="header">
+        <div class="container">
+        <div class="navbar">  
+            <div class="logo">
+                <img src="../assets/img/img01.jpg" width="150px">
+            </div>
+			<div class="wrap">
+			<form action="search.jsp" method="POST">
+                    <div class="search">
+                        <input class="search-bar" type="search" name="search" id="search" placeholder="請輸入商品名稱">
+                        <button class="search-btn" type="submit" name="search" width=50><img src="../assets/img/search.png"></button>
+                    </div>
+                </form>
+			</div>	
+        <nav class="meun">
+             <ul class="drop-down-menu">
+                <li>
+                    <a href="#">會員中心</a>
+                    <ul class="dropdown">
+                        <li><%@ include file="issignin.jsp" %></li>
+                        <li><a href="history.jsp">訂單</a></li>
+                        <li><a href="setup.jsp">修改資料</a></li>
+                    </ul>
+                </li>				
+                <li><a href="../pages/index.jsp">Home</a></li>				
+                <li><a href="../pages/hw01.jsp">Shop</a></li>
+				<li><a href="../pages/team.jsp">aboutus</a></li>
+				
+            </ul>
+        </nav>
+            <a href="../pages/cart.jsp">
+                <img src="../assets/img/car.png" width="30px" height="30px">
+            </a>
+        </div>
+        </div>
+    
+       <nav class="navigationbar">
+            <div class="dropdown01">
+                <p>YU weavws</p>
+            </div>
+        </nav>
+
+        <div class="Selfintroduction">
+            <div class="container">
+                <div class="box">
+                    <div class="img-box">
+                        <img src="../assets/img/jim.jpg"  >
+                    </div>
+                    <div class="text-box">
+                        <div> 
+                            <h2>曹晉瑋</h2>
+                            <P>這次經過了期中期末專題，我對html、css
+                                有飛躍性的進步，雖然寫出來的東西都兩光兩光的，
+                                但是寫完的時候成就感滿滿，覺得很爽，
+                                但是也有發現缺點，就是遇到跑時，
+                                頭會很痛不知道要從哪裡找問題，
+                                只能一步一步摸索，
+                                這次期末專題是一個很好的經驗。
+                            </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <div class="img-box">
+                        <img src="../assets/img/laam.jpg" >
+                    </div>
+                    <div class="text-box">
+                        <div> 
+                            <h2>陳朝嵐</h2>
+                            <P>而多媒體程式設計正正就是學習網頁最重要的html,css和javascript，
+                                我在學習多媒體時也讓我的解難能力有所提升，
+                                因為在做期中和期末作業時有遇到很多不同的挑戰，
+                                例如有時候改一個CSS或新增一個CSS時，
+                                會導致整個網頁其他東西跑掉，
+                                之後有慢慢找出錯誤的地方作出修正。</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <div class="img-box">
+                        <img src="../assets/img/andew.jpg" >
+                    </div>
+                    <div class="text-box">
+                        <div> 
+                            <h2>陳擇言</h2>
+                            <P>我覺得多媒體設計非常有趣，多媒體設計跟
+                            之前學的JAVA和PYTHON完全不一樣，多媒體設
+                            計這堂課讓我學習到怎麼自己寫出一個網站，
+                            雖然一開始很困難，什麼都不會，在老師
+                            講解和我自己練習之下我認識HTML的架構，我
+                            非常感謝我的組員，在我專題的時候幫助我很
+                            多，讓我能完成這項專題</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <div class="Selfintroduction">
+            <div class="container">
+                <div class="box">
+                    <div class="img-box">
+                        <img src="../assets/img/liu.jpg" >
+                    </div>
+                    <div class="text-box">
+                        <div> 
+                            <h2>劉安哲</h2>
+                             <P>這次的期末專題，讓我知道了，要趁早開始準備，而
+							 元旦的假期也會跟著消失，其中debug真的是最難的，不
+							 知道錯誤在哪真的會很頭疼，也因為花了許多的時間，把
+							 一步一步把各項功能都做出來的時候，讓我非常的有成就
+							 感，讓我對程式的興趣又增加了許多。
+							 </P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <div class="img-box">
+                        <img src="../assets/img/wang.jpg" >
+                    </div>
+                    <div class="text-box">
+                        <div> 
+                            <h2>王盛峰</h2>
+                            <P>這一次的期末專題，雖然我在團隊裡面可能算是比較
+							   不會的成員，但是我也在隊員寫完的程式中，慢慢去學
+							   ，慢慢去認識到更多HTML丶JSP的程式，讓我自己知道
+							   之後還有哪裡需要改進，也謝謝我的成員可以兼納我
+							   一個需要學習程式的人，我也會努力慢慢進步，從知道
+							   各種語法，到完整寫出一個網站
+							 </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <div class="img-box">
+                        <img src="../assets/img/huan.JPG" >
+                    </div>
+                    <div class="text-box">
+                        <div> 
+                            <h2>阮宥華</h2>
+                            <P>上完這學期的課程，希望老師教的可以再清楚一點
+							因為這學期我覺得所有課程中只有這個讓我不知道該如何讀
+							所以這學期並沒有吸收的很好，但這之中也學到團體合作的精神
+							知道如何跟他人一起寫程式做出一個購物網站，這對我來說是
+							一個很艱難的任務	</P>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <br>
+		<div class="content">
+            <div class="contentblock">
+                <div class="con">
+                <span>
+                    <h2>聯絡我們</h2>
+                </span>
+                <hr>
+                <div class="condetail">
+                        <div class="condetail1">
+                        <form action="add2.jsp" method="POST">
+                            <input class="namebar" name="name" type="text" placeholder="請輸入名稱">
+                            <input class="namebar" name="email" type="email" placeholder="請輸入電子信箱">
+                            <div class="submit">
+                                <textarea class="area" name="content" cols="80" rows="8" placeholder="請輸入您的反饋意見" ></textarea>
+                            </div>
+                                <button type="submit" class="btn">送出</button>
+                                <button type="reset" class="btn">重填</button>
+                            </div>
+                        </form>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="row">
+                <div class="container1">
+                    <div class="footer-col2">
+                        <img src="../assets/img/img01.jpg">                    
+                    </div>
+                    <div class="footer-col3">
+                        <a href="https://www.instagram.com/yuweaves/">
+                             <img class="ig" src="../assets/img/ig.png">
+                        </a>
+                    </div>  
+                    <div class="footer-col3">
+                        <a href="mailto:jim20030917@gmail.com">
+                             <img class="ig" src="../assets/img/emal.jpg">
+                        </a>
+                    </div>
+                    <div class="footer-col4">
+                        <h3>聯絡我們</h3>
+                        <ul>
+                            <li>電話: +886-3-265-9999</li>
+                            <li>傳真：+886-3-265-8888</li>
+                            <li>地址: 320314 桃園市中壢區中北路200號</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>  
+</body>
+</html>

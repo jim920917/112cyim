@@ -1,0 +1,78 @@
+.carda{
+    background-color: white;
+    padding: 20px;
+    margin: 20px 10px;
+    border-radius: 10px;
+}
+
+.blank
+{
+    background-color: white;
+    height: 117px;
+}
+
+.flex {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+
+}
+
+
+.flexa {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+.flexb {
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+
+
+.orderproducte {
+    display: flex;
+    flex-direction: column;
+}
+
+.product {
+    width: 150px ;
+    border-radius: 10px;
+}
+
+
+@media only screen and (max-width:450px) {
+
+    [class*="col-"] {
+      width: 100%;
+    }
+    
+    
+    header{
+      width: 100%;
+    }
+  
+    .search{
+      width: 80%;
+      margin-left: -10%;
+    }
+  
+    .carda{
+      width: 400%;  
+    }
+
+    .flexa{
+        width: 400%;  
+      }
+
+    .carlast{
+        width: 400%;
+    }
+  
+    footer{
+      width: 400%;
+    }
+  
+  }
