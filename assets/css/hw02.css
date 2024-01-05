@@ -2,12 +2,21 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+<<<<<<< HEAD
 
 }
 
 body {
     overflow-x: hidden;
     max-width: 150vw;
+=======
+   
+}
+
+body{
+    overflow-x:hidden;
+    max-width:150vw;
+>>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
     background-color: #e5b993;
 }
 
@@ -254,11 +263,18 @@ ul.drop-down-menu ul li:hover>ul {
     overflow: hidden;
 }
 
+<<<<<<< HEAD
 .dropdown p {
     color: white;
 }
 
 .comment {
+=======
+.dropdown p{
+    color: white;
+}
+.comment{
+>>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
     outline: none;
     background-color: white;
     border: 1px solid black;
@@ -269,8 +285,12 @@ ul.drop-down-menu ul li:hover>ul {
     /*display: block;
     margin: auto;*/
 }
+<<<<<<< HEAD
 
 .button {
+=======
+.button{
+>>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
     display: flex;
 }
 
