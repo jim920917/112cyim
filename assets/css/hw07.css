@@ -2,10 +2,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+   
 }
 
 body{
-    background-color: #faedcd;
+    overflow-x:hidden;
+    max-width:150vw;
+    background-color: #e5b993;
 }
 
 .navbar {
@@ -27,7 +30,8 @@ body{
 
 .meun ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 25px;
+    padding: 15px;
 }
 
 a {
@@ -258,10 +262,11 @@ input:hover {
 }
 
 .footer-col2 {
-    width: 15%;
+    width: 10%;
 }
 
 .footer-col2 img {
+    border-radius: 22px;
     width: 70%;
 }
 
@@ -278,6 +283,7 @@ input:hover {
 .ig {
     width: 100px;
     height: 100px;
+    border-radius: 22px;
 }
 
 .row {

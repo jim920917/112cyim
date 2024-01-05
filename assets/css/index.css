@@ -4,8 +4,10 @@
     box-sizing: border-box;
 }
 
-.header {
+body {
     background-color: #e5b993;
+    overflow-x: hidden;
+    max-width: 100vw;
 }
 
 .navbar {
@@ -26,7 +28,8 @@
 
 .meun ul li {
     display: inline-block;
-    margin-right: 20px;
+    margin-right: 10px;
+    padding: 15px;
 }
 
 a {
@@ -63,51 +66,170 @@ p {
     text-decoration: none;
 }
 
-.navigationbar a:hover {
-    background-color: red;
-    color: black;
+.search-btn img {
+    width: 20px;
+    height: auto;
+}
+
+ul {
+    /* 取消ul預設的內縮及樣式 */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.drop-down-menu {
+    display: inline-block;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+}
+
+ul.drop-down-menu>li:last-child {
+    border-right: none;
+}
+
+ul.drop-down-menu a {
+    color: #333;
+    display: flex;
+    padding: 0 30px;
+    text-decoration: none;
+    line-height: 40px;
+    border: solid;
 }
 
 .dropdown {
+    border-radius: 10px;
+    background-color: wheat;
+    margin-right: -500px;
+}
+
+.dropdown01 {
+    border-radius: 10px;
+    background-color: #333;
+}
+
+.dropdown01 p {
+    color: wheat;
+}
+
+ul.drop-down-menu a:hover {
+    /* 滑鼠滑入按鈕變色*/
+    border-radius: 10px;
+    background-color: #ef5c28;
+    color: #fff;
+}
+
+ul.drop-down-menu li:hover>a {
+    /* 滑鼠移入次選單上層按鈕保持變色*/
+    border-radius: 10px;
+    background-color: #ef5c28;
+    color: #fff;
+}
+
+ul.drop-down-menu ul li {
+    border-bottom: #ccc 1px solid;
+}
+
+ul.drop-down-menu ul li:last-child {
+    border-bottom: none;
+}
+
+ul.drop-down-menu ul {
+    /*隱藏次選單*/
+    left: auto;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+}
+
+ul.drop-down-menu li:hover>ul {
+    /* 滑鼠滑入展開次選單*/
+    opacity: 1;
+    -webkit-transition: opacity 0.3s;
+    transition: opacity 0.3s;
+    left: -1px;
+    border-right: 5px;
+}
+
+ul.drop-down-menu ul li:hover>ul {
+    /* 第二層之後的選單展開位置*/
+    left: 90%;
+}
+
+ul.drop-down-menu .dropdown {
     float: left;
     overflow: hidden;
 }
 
-.dropdown .dropbtn {
-    font-size: 16px;
-    border: none;
-    outline: none;
+ul.drop-down-menu .dropdown p {
     color: white;
-    padding: 14px 16px;
-    font-family: inherit;
-    background-color: #333;
-    margin: 0;
+    text-align: right;
 }
 
-.dropdown-content {
-    display: none;
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown p {
+    color: white;
+    text-align: right;
+}
+
+#container {
+    position: relative;
+    width: 900px;
+    height: 500px;
+    border: 3px solid #333;
+    margin: 115px auto;
+    overflow: hidden;
+}
+
+#list {
     position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
+    width: 5400px;
+    height: 500px;
+    left: -900px;
 }
 
-.dropdown-content a {
-    float: none;
-    color: black;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
+#list img {
+    float: left;
+    width: 900px;
+    height: 500px;
+}
+
+.arrow {
+    position: absolute;
+    top: 230px;
+    z-index: 2;
+    display: none;
+    width: 40px;
+    height: 40px;
+    font-size: 36px;
+    font-weight: bold;
+    line-height: 35px;
     text-align: center;
+    color: #fff;
+    background-color: RGBA(0, 0, 0, .3);
+    cursor: pointer;
 }
 
-.dropdown-content a:hover {
-    background-color: #ddd;
+.arrow:hover {
+    background-color: RGBA(0, 0, 0, .7);
 }
 
-.dropdown:hover .dropdown-content {
+#container:hover .arrow {
     display: block;
+}
+
+#prev {
+    left: 20px;
+}
+
+#next {
+    right: 20px;
 }
 
 .row {
@@ -148,6 +270,7 @@ p {
 }
 
 .categories {
+    background-color: #e5b993;
     margin: 70px 0;
 }
 
@@ -155,6 +278,7 @@ p {
     flex-basis: 30%;
     min-width: 250px;
     margin-bottom: 40px;
+    background-color: #e5b993;
 }
 
 .prod1 img {
@@ -166,6 +290,7 @@ p {
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
+    background-color: #e5b993;
 }
 
 .col4 {
@@ -182,13 +307,16 @@ p {
 .title {
     text-align: center;
     font-size: 40px;
-    font-family: 標楷體;
+    font-family: 'Roboto Condensed' ， 無襯線;
+    background-color: #e5b993;
 }
 
 .producutimg {
     display: flex;
     justify-content: space-evenly;
     margin-top: 2%;
+    background-color: #e5b993;
+    font-family: 'Roboto Condensed' ， 無襯線;
 }
 
 .p {
@@ -215,7 +343,7 @@ p {
 .producutimg1,
 .producutimg2,
 .producutimg3 {
-    width: 25%;
+    width: 15%;
 }
 
 .producutimg4 p,
@@ -229,18 +357,14 @@ p {
 .producutimg4,
 .producutimg5,
 .producutimg6 {
-    width: 25%;
+    width: 15%;
 }
 
 .footer {
-    background: black;
+    background-color: black;
     color: #a19d9d;
     font-size: 14px;
     padding: 60px 0 20px;
-}
-
-.footer p {
-    color: #a19d9d;
 }
 
 .footer h3 {
@@ -249,11 +373,12 @@ p {
 }
 
 .footer-col2 {
-    width: 15%;
+    width: 10%;
 }
 
 .footer-col2 img {
     width: 70%;
+    border-radius: 22px;
 }
 
 .container1 {
@@ -265,113 +390,8 @@ p {
     text-decoration: none;
 }
 
-
 .ig {
     width: 100px;
     height: 100px;
-}
-
-.item_header {
-    display: flex;
-    width: 1000px;
-    margin: 0 auto;
-    height: 30px;
-    background-color: #e5b993;
-    border-radius: 3px;
-    padding-left: 10px;
-    border: solid;
-}
-
-.item_header div {
-    width: 200px;
-    color: #333;
-    line-height: 30px;
-}
-
-.item_header .item_detail {
-    width: 50%;
-}
-
-.item_body {
-    margin-top: 20px;
-    height: 100px;
-    align-items: center;
-}
-
-.item_detail img {
-    width: 80px;
-    height: 80px;
-    border-radius: 3px;
-    /* margin-top: 10px; */
-    float: left;
-}
-
-.item_detail .name {
-    margin-left: 100px;
-    margin-top: 20px;
-}
-
-.count input {
-    width: 40px;
-    height: 30px;
-    padding: 5px;
-}
-
-.body {
-    background-color: rgba(0, 0, 0, .2);
-}
-
-.cart-info img {
-    width: 10%;
-}
-
-.cart-page {
-    margin: 80px;
-    margin-left: 10%;
-    margin-right: 10%;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-}
-
-.cart-info {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-th {
-    text-align: left;
-    padding: 5px;
-    color: #fff;
-    background: black;
-    font-weight: normal;
-}
-
-.check {
-    display: inline-block;
-    background-color: rgb(219, 119, 58);
-    color: #333;
-    padding: 8px 30px;
-    margin: 30px 0;
-    border-radius: 30px;
-}
-
-.container4 {
-    margin: 50px;
-    margin-left: 45%;
-    margin-right: 40%;
-    text-align: left;
-}
-
-.cart-info2 {
-    margin: 50px;
-    margin-left: 45%;
-    margin-right: 40%;
-    text-align: left;
-}
-
-.cart-info2 img {
-    width: 70%;
+    border-radius: 22px;
 }
