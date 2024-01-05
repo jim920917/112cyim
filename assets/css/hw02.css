@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 }
 
@@ -17,6 +18,14 @@ body{
     overflow-x:hidden;
     max-width:150vw;
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+
+}
+
+body {
+    overflow-x: hidden;
+    max-width: 150vw;
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     background-color: #e5b993;
 }
 
@@ -264,17 +273,23 @@ ul.drop-down-menu ul li:hover>ul {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 .dropdown p {
     color: white;
 }
 
 .comment {
+<<<<<<< HEAD
 =======
 .dropdown p{
     color: white;
 }
 .comment{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     outline: none;
     background-color: white;
     border: 1px solid black;
@@ -288,9 +303,12 @@ ul.drop-down-menu ul li:hover>ul {
 <<<<<<< HEAD
 
 .button {
+<<<<<<< HEAD
 =======
 .button{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     display: flex;
 }
 

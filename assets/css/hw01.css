@@ -1,28 +1,40 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 body,
 * {
     margin: 0;
     padding: 0;
+<<<<<<< HEAD
 =======
 body,*{
     margin:0;
     padding:0;
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 
     box-sizing: border-box;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 body {
     background-color: #e5b993;
     overflow-x: hidden;
     max-width: 100vw;
+<<<<<<< HEAD
 =======
 body{
     background-color: #e5b993;
     overflow-x:hidden;
     max-width:100vw;
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 }
 
 
@@ -46,10 +58,14 @@ body{
 .meun ul li {
     display: inline-block;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-right: 10px;
 =======
     margin-right: 25px;
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+    margin-right: 10px;
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     padding: 15px;
 }
 
@@ -88,6 +104,9 @@ p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 
 
 
@@ -95,6 +114,41 @@ p {
     width: 20px;
     height: auto;
 
+<<<<<<< HEAD
+=======
+}
+
+
+ul {
+    /* 取消ul預設的內縮及樣式 */
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+ul.drop-down-menu {
+
+    display: inline-block;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 15px;
+}
+
+
+
+ul.drop-down-menu>li:last-child {
+    border-right: none;
+}
+
+
+
+ul.drop-down-menu a {
+    color: black;
+    display: flex;
+    padding: 0 30px;
+    text-decoration: none;
+    line-height: 40px;
+    border: solid;
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 }
 
 
@@ -201,6 +255,9 @@ ul.drop-down-menu .dropdown {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 ul.drop-down-menu .dropdown p {
     color: white;
     text-align: right;
@@ -218,6 +275,7 @@ ul.drop-down-menu .dropdown p {
     text-align: right;
 }
 
+<<<<<<< HEAD
 
 .list {
 =======
@@ -227,6 +285,10 @@ ul.drop-down-menu .dropdown p {
 
 .list{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+
+.list {
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     width: 80%;
     background-color: #faedcd;
     /*border: solid;*/

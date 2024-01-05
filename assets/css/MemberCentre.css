@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 * {
     margin: 0;
     padding: 0;
@@ -189,6 +192,7 @@ ul.drop-down-menu .dropdown p {
 
 .register {
     background-color: #efba9a;
+<<<<<<< HEAD
 =======
 body{
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -202,6 +206,8 @@ body{
     background-color:#efba9a ;
     width: 400px;
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     color: black;
     padding: 40px;
     box-shadow: 10px 10px 10px #000;
@@ -209,10 +215,14 @@ body{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .register input {
 =======
 .register input{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+.register input {
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     display: block;
     margin: 20px auto;
     text-align: center;
@@ -224,35 +234,52 @@ body{
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .register input[type="submit"] {
 =======
 .register input[type="submit"]{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+.register input[type="submit"] {
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     width: 150px;
     cursor: pointer;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .register input[type="text"],
 .register input[type="password"] {
 =======
 .register input[type="text"], .register input[type="password"]{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+.register input[type="text"],
+.register input[type="password"] {
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     border: 2px solid black;
     width: 220px;
 }
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .register input[type="text"]:focus,
 .login input[type="password"]:focus {
 =======
 .register input[type="text"]:focus, .login input[type="password"]:focus{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+.register input[type="text"]:focus,
+.login input[type="password"]:focus {
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     border-color: #bc6c25;
     width: 280px;
     transition: 0.5s;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 
 .button {
     display: flex;
@@ -262,10 +289,13 @@ body{
 
 .jim {
     border: solid;
+<<<<<<< HEAD
 =======
 .button{
     display: flex;
     justify-content: center;
     gap: 1;
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 }

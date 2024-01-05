@@ -1,4 +1,7 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 * {
     margin: 0;
     padding: 0;
@@ -11,6 +14,7 @@ body {
     max-width: 100vw;
 }
 
+<<<<<<< HEAD
 =======
 body,*{
     margin:0;
@@ -27,6 +31,8 @@ body,*{
 
 
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 .navbar {
     display: flex;
     align-items: center;
@@ -46,11 +52,16 @@ body,*{
 .meun ul li {
     display: inline-block;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-right: 10px;
     padding: 15px;
 =======
     margin-right: 20px;
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+    margin-right: 10px;
+    padding: 15px;
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 }
 
 a {
@@ -63,6 +74,9 @@ p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 .container {
     max-width: 1300px;
     margin: auto;
@@ -208,8 +222,11 @@ ul.drop-down-menu .dropdown p {
     overflow: hidden;
 }
 
+<<<<<<< HEAD
 =======
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 table {
     width: 100%;
     border-collapse: collapse;
@@ -235,6 +252,7 @@ th {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 .container4 {
     margin: 50px;
@@ -255,6 +273,8 @@ th {
 }
 
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 .cart-info img {
     width: 10%;
 }
@@ -307,7 +327,11 @@ th {
     flex-wrap: wrap;
     justify-content: space-around;
 <<<<<<< HEAD
+<<<<<<< HEAD
 }
 =======
 }
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+}
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177

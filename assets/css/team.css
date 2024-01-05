@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 }
 
 body {
@@ -19,6 +22,7 @@ body {
 
 .meun {
     flex: 1;
+<<<<<<< HEAD
 =======
    
 }
@@ -42,25 +46,35 @@ body{
     display: flex;
     margin-left: 120%;
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     text-align: right;
 }
 
 .meun ul {
 <<<<<<< HEAD
+<<<<<<< HEAD
     display: inline-block;
 =======
     display: flex;
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+    display: inline-block;
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     list-style-type: none;
 }
 
 .meun ul li {
     display: inline-block;
 <<<<<<< HEAD
+<<<<<<< HEAD
     margin-right: 10px;
 =======
     margin-right: 25px;
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+    margin-right: 10px;
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     padding: 15px;
 }
 
@@ -79,10 +93,13 @@ p {
     padding-left: 35px;
     padding-right: 35px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
     display: flex;
     justify-content: space-between;
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 }
 
 .navigationbar {
@@ -104,6 +121,9 @@ p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 .search-btn img {
     width: 20px;
     height: auto;
@@ -196,14 +216,20 @@ ul.drop-down-menu ul li:hover>ul {
 }
 
 ul.drop-down-menu .dropdown {
+<<<<<<< HEAD
 =======
 .dropdown {
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     float: left;
     overflow: hidden;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 ul.drop-down-menu .dropdown p {
     color: white;
     text-align: right;
@@ -229,6 +255,7 @@ ul.drop-down-menu .dropdown p {
 }
 
 .Selfintroduction {
+<<<<<<< HEAD
 =======
 .dropdown p{
     color: white;
@@ -258,15 +285,21 @@ ul.drop-down-menu .dropdown p {
 
 .Selfintroduction{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     display: flex;
     justify-content: center;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container .box {
 =======
 .container .box{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+.container .box {
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     position: relative;
     width: 300px;
     height: 300px;
@@ -275,6 +308,9 @@ ul.drop-down-menu .dropdown p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 .container .box:hover {
     transform: scale(1.25);
     box-shadow: 0 25px 40px rgba(0, 0, 0, 0, 5);
@@ -284,6 +320,7 @@ ul.drop-down-menu .dropdown p {
 }
 
 .container .box .img-box img {
+<<<<<<< HEAD
 =======
 .container .box:hover{
     transform: scale(1.25);
@@ -295,6 +332,8 @@ ul.drop-down-menu .dropdown p {
 
 .container .box .img-box img{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     position: absolute;
     left: 0;
     top: 0;
@@ -304,11 +343,15 @@ ul.drop-down-menu .dropdown p {
 }
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 .container .box .img-box {
 =======
 .container .box .img-box{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+.container .box .img-box {
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     position: absolute;
     left: 0;
     top: 0;
@@ -318,10 +361,14 @@ ul.drop-down-menu .dropdown p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container .box .img-box:before {
 =======
 .container .box .img-box:before{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+.container .box .img-box:before {
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     content: "";
     position: absolute;
     left: 0;
@@ -335,11 +382,15 @@ ul.drop-down-menu .dropdown p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
 .container .box:hover .img-box:before {
     opacity: 1;
 }
 
 .container .box .text-box {
+<<<<<<< HEAD
 =======
 .container .box:hover .img-box:before{
     opacity: 1;
@@ -347,6 +398,8 @@ ul.drop-down-menu .dropdown p {
 
 .container .box .text-box{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     position: absolute;
     left: 0;
     top: 0;
@@ -360,10 +413,14 @@ ul.drop-down-menu .dropdown p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container .box .text-box h2 {
 =======
 .container .box .text-box h2{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+.container .box .text-box h2 {
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     font-size: 20px;
     margin-bottom: 10px;
     transform: translateY(200px);
@@ -371,19 +428,27 @@ ul.drop-down-menu .dropdown p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container .box:hover .text-box h2 {
 =======
 .container .box:hover .text-box h2{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+.container .box:hover .text-box h2 {
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     transform: translateY(0);
     transition-delay: 0.3s;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container .box .text-box p {
 =======
 .container .box .text-box p{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+.container .box .text-box p {
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     font-size: 13px;
     line-height: 20px;
     transform: translateY(200px);
@@ -392,10 +457,14 @@ ul.drop-down-menu .dropdown p {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .container .box:hover .text-box p {
 =======
 .container .box:hover .text-box p{
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+.container .box:hover .text-box p {
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
     transform: translate(0);
     transition-delay: 0.3s;
 }
@@ -448,7 +517,12 @@ ul.drop-down-menu .dropdown p {
     justify-content: space-around;
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 .content {}
 =======
 >>>>>>> 6e57dff2ae0f041fea941ee557735512f706894c
+=======
+
+.content {}
+>>>>>>> 30f400ee317f26ec5c6815d425a540519d0bc177
