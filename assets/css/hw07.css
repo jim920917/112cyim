@@ -439,6 +439,7 @@ condetail1 {
 }
 
 .footer-col2 img {
+    border-radius: 22px;
     width: 70%;
     border-radius: 22px;
 }
