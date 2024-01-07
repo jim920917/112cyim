@@ -1,8 +1,6 @@
-body,
 * {
     margin: 0;
     padding: 0;
-
     box-sizing: border-box;
 }
 
@@ -11,8 +9,6 @@ body {
     overflow-x: hidden;
     max-width: 100vw;
 }
-
-
 
 .navbar {
     display: flex;
@@ -70,15 +66,10 @@ p {
     text-decoration: none;
 }
 
-
-
-
 .search-btn img {
     width: 20px;
     height: auto;
-
 }
-
 
 ul {
     /* 取消ul預設的內縮及樣式 */
@@ -88,22 +79,17 @@ ul {
 }
 
 ul.drop-down-menu {
-
     display: inline-block;
     font-family: 'Noto Sans JP', sans-serif;
     font-size: 15px;
 }
 
-
-
 ul.drop-down-menu>li:last-child {
     border-right: none;
 }
 
-
-
 ul.drop-down-menu a {
-    color: black;
+    color: #333;
     display: flex;
     padding: 0 30px;
     text-decoration: none;
@@ -115,7 +101,6 @@ ul.drop-down-menu a {
     border-radius: 10px;
     background-color: wheat;
     margin-right: -500px;
-
 }
 
 .dropdown01 {
@@ -140,8 +125,6 @@ ul.drop-down-menu li:hover>a {
     background-color: #ef5c28;
     color: #fff;
 }
-
-
 
 ul.drop-down-menu ul li {
     border-bottom: #ccc 1px solid;
@@ -169,7 +152,6 @@ ul.drop-down-menu li:hover>ul {
     border-right: 5px;
 }
 
-
 ul.drop-down-menu ul li:hover>ul {
     /* 第二層之後的選單展開位置*/
     left: 90%;
@@ -185,8 +167,6 @@ ul.drop-down-menu .dropdown p {
     text-align: right;
 }
 
-
-
 .dropdown {
     float: right;
     overflow: hidden;
@@ -197,130 +177,85 @@ ul.drop-down-menu .dropdown p {
     text-align: right;
 }
 
-
-.list {
-    width: 80%;
-    background-color: #faedcd;
-    /*border: solid;*/
+#container {
+    position: relative;
+    width: 900px;
+    height: 500px;
+    border: 3px solid #333;
+    margin: 115px auto;
+    overflow: hidden;
 }
 
-.car {
-    width: 20%;
-
+.logintitle h1 a {
+    color: rgb(34, 96, 211);
 }
 
-.product01 {
-    width: 100%;
+.register {
+    background-color: #efba9a;
+    color: black;
+    padding: 40px;
+    box-shadow: 10px 10px 10px #000;
+    text-align: center;
+    padding-bottom: 100%;
+}
+
+.register input {
+    display: block;
+    margin: 50px auto;
+    text-align: center;
+    background: none;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 22px;
+    outline: none;
+}
+
+.register input[type="submit"] {
+    width: 150px;
+    cursor: pointer;
+}
+
+.register input[type="text"],
+.register input[type="password"] {
+    border: 2px solid black;
+    width: 220px;
+}
+
+.register input[type="text"]:focus,
+.login input[type="password"]:focus {
+    border-color: #bc6c25;
+    width: 280px;
+    transition: 0.5s;
+}
+
+.button {
     display: flex;
-    padding: 50px 0px 0px 0px;
-    /*border-style: solid;*/
+    justify-content: center;
+    gap: 1;
 }
 
-.product02 {
-    width: 100%;
-    display: flex;
-    padding: 50px 0px 0px 0px;
-    /*border-style: solid;*/
-}
-
-.link01 {
-    padding: 50px 0px 0px 8%;
-    display: flex;
-}
-
-.link02 {
-    padding: 50px 0px 0px 8%;
-    display: flex;
-}
-
-.link03 {
-    padding: 50px 0px 0px 8%;
-    display: flex;
-}
-
-.link04 {
-    padding: 50px 0px 0px 8%;
-    display: flex;
-}
-
-.img01 {
-    width: 250px;
-    /*border: solid;*/
-    height: 250px;
-    border-radius: 15%;
-}
-
-.img02 {
-    width: 250px;
-    height: 250px;
-    border-radius: 15%;
-}
-
-.img03 {
-    width: 250px;
-    height: 250px;
-    border-radius: 15%;
-}
-
-.img04 {
-    width: 250px;
-    height: 250px;
-    border-radius: 15%;
-}
-
-.img05 {
-    width: 250px;
-    height: 250px;
-    border-radius: 15%;
-}
-
-.img06 {
-    width: 250px;
-    height: 250px;
-    border-radius: 15%;
-}
-
-.img07 {
-    width: 250px;
-    height: 250px;
-    border-radius: 15%;
-}
-
-.img08 {
-    width: 250px;
-    height: 250px;
-    border-radius: 15%;
-}
-
-
-.list2 {
-    background-color: black;
+.jim {
+    border: solid;
 }
 
 .footer {
-    position: relative;
+    position: fixed;
     bottom: 0;
     left: 0;
     width: 100%;
-    margin-top: auto;
     background-color: black;
     color: #a19d9d;
     font-size: 14px;
     padding: 60px 0 20px;
 }
 
-.footer p {
-    color: #a19d9d;
-}
-
-.footer h3 {
+.footer2 h3 {
     color: #fff;
     margin-bottom: 20px;
 }
 
 .footer-col2 {
     width: 10%;
-
 }
 
 .footer-col2 img {
@@ -337,16 +272,8 @@ ul.drop-down-menu .dropdown p {
     text-decoration: none;
 }
 
-
 .ig {
     width: 100px;
     height: 100px;
     border-radius: 22px;
-}
-
-.row {
-    display: flex;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: space-around;
 }

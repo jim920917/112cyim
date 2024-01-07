@@ -1,12 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>YU weavws</title>
-	<link rel="stylesheet" href="../assets/css/index.css">
+    <link rel="stylesheet" href="../assets/css/shipping.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
     <link rel="stylesheet" href="../assets/css/history.css">
+
 </head>
 <body>
 
@@ -17,7 +19,7 @@
                 <img src="../assets/img/img01.jpg" width="150px">
             </div>
 			<div class="wrap">
-			<form  method="POST">
+			<form method="POST">
                     <div class="search">
                         <input class="search-bar" type="search" name="search" id="search" placeholder="請輸入商品名稱">
                         <button class="search-btn" type="submit" name="search" width=50><img src="../assets/img/search.png"></button>
@@ -36,7 +38,7 @@
                 </li>		
                 <li><a href="../pages/index.html">Home</a></li>				
                 <li><a href="../pages/hw01.html">Shop</a></li>
-				<li><a href="../pages/team.html">aboutus</a></li>					
+				<li><a href="../pages/team.html">aboutus</a></li>				
             </ul>
         </nav>
             <a href="../pages/cart.html">
@@ -50,7 +52,8 @@
                 <p>YU weavws</p>
             </div>
         </nav>
-		<div class="cart-page">
+
+        <div class="cart-page">
             <h3>最新訂單</h3>
             <table>
                 <tr>
@@ -73,14 +76,61 @@
                 </tr>
             </table>
 
-            <div class="row">
+	        <div class="container4" style="margin-top:10px">
+			<h3>訂購資訊</h3>
+            <p>縣市&emsp;&emsp;&emsp;&emsp;
+            <select name="contray">
+                <option></option>
+                <option value="臺北市">臺北市</option>
+                <option value="新北市">新北市</option>
+                <option value="基隆市">基隆市</option>
+                <option value="桃園市">桃園市</option>
+                <option value="新竹市">新竹市</option>
+                <option value="新竹縣">新竹縣</option>
+                <option value="臺中市">臺中市</option>
+                <option value="臺南市">臺南市</option>
+                <option value="臺南市">高雄市</option>
+                <option value="苗栗縣">苗栗縣</option>
+                <option value="彰化縣">彰化縣</option>
+                <option value="南投縣">南投縣</option>
+                <option value="雲林縣">雲林縣</option>
+                <option value="嘉義市">嘉義市</option>
+                <option value="嘉義縣">嘉義縣</option>
+                <option value="屏東縣">屏東縣</option>
+                <option value="宜蘭縣">宜蘭縣</option>
+                <option value="花蓮縣">花蓮縣</option>
+                <option value="澎湖縣">澎湖縣</option>
+                <option value="臺東縣">臺東縣</option>
+                <option value="金門縣">金門縣</option>
+                <option value="連江縣">連江縣</option>
+            </select></p>
+            <p>地址&nbsp;&emsp;&emsp;&emsp;&emsp;<input type="text" name="address" placeholder="請輸入送貨地址"></p>
+            <hr>
+            <p>付款方式</p>
+            <input type="radio" name="pay" value="貨到付款" id="cash">
+            <label for="cash">貨到付款</label>
+            <hr>
+            <p>寄送方式</p>
+            <div class="container3">
+                <br>
+                <input type="radio" name="send" value="超商取貨(7-11)" id="cash"><a href="https://emap.pcsc.com.tw/emap.aspx" class="delivery-link" data-method="711">超商取貨(7-11)、</a>
+                <input type="radio" name="send" value="超商取貨(全家)" id="cash"><a href="https://www.family.com.tw/Marketing/Map" class="delivery-link" data-method="familymart">超商取貨(全家)</a>
+            </div>
+            <hr>
+            <p>運費：<span class="price" style="color:black"><b>NT$60</b></span></p>
+            <hr>
+            <p>總金額：<span class="price" style="color:black"><b>NT$400+60=460 (會員價9折)=NT$414</b></span></p>
+            <br>
+
+			<div class="row">
 				<div class="check">
-					<a href='shipping.html'>繼續</a>
+					<a href='index.html'>完成購物</a>
 				</div>
 			</div>
         </div>
 
-            
+        </div>
+
         <div class="footer">
             <div class="container1">
                 <div class="footer-col2">

@@ -3,21 +3,23 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YU weavws</title>
-	<link rel="stylesheet" href="../assets/css/index.css">
-    <link rel="stylesheet" href="../assets/css/history.css">
+    <title>YU weavws會員中心</title>
+	<link rel="stylesheet" href="../assets/css/MemberCentre.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+
 </head>
 <body>
 
-    <div class="header">
+  <div class="header">
         <div class="container">
         <div class="navbar">  
             <div class="logo">
                 <img src="../assets/img/img01.jpg" width="150px">
             </div>
 			<div class="wrap">
-			<form  method="POST">
+			<form method="POST">
                     <div class="search">
                         <input class="search-bar" type="search" name="search" id="search" placeholder="請輸入商品名稱">
                         <button class="search-btn" type="submit" name="search" width=50><img src="../assets/img/search.png"></button>
@@ -36,7 +38,7 @@
                 </li>		
                 <li><a href="../pages/index.html">Home</a></li>				
                 <li><a href="../pages/hw01.html">Shop</a></li>
-				<li><a href="../pages/team.html">aboutus</a></li>					
+				<li><a href="../pages/team.html">aboutus</a></li>		
             </ul>
         </nav>
             <a href="../pages/cart.html">
@@ -50,38 +52,25 @@
                 <p>YU weavws</p>
             </div>
         </nav>
-		<div class="cart-page">
-            <h3>最新訂單</h3>
-            <table>
-                <tr>
-                    <th>product</th>
-                    <th>Quantity</th>
-                    <th>subtotal</th>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="cart-info">
-                            <img src="../assets/img/img13.jpg">
-                        <div>
-                            <p>🧋珍珠奶茶造型飲料提袋🧋</p>
-                            <small>$400</small>
-                        </div>
-                        </div>
-                    </td>
-                    <td><input type="number" readonly value="1"></td>
-                    <td>$400</td>
-                </tr>
-            </table>
-
-            <div class="row">
-				<div class="check">
-					<a href='shipping.html'>繼續</a>
-				</div>
-			</div>
+    
+        <div id="container2" >
+            <form class="register" action="updatemember.html" method="POST">
+                <div class="logintitle"><h1><a href="index.html">WEAVES</a></h1></div>
+                <div class="logina"><h1>會員資料修改</h1></div>
+                <div><input type="text" id="username" name="username" placeholder="帳號" value=""></div>
+                <div><input type="text" id="password" name="password" placeholder="密碼" value=""></div>
+                <div><input type="text" id="name" name="name" placeholder="姓名" value=""></div>
+                <div><input type="text" id="phone" name="phone" placeholder="電話" value=""></div>
+                <div><input type="email" id="location" name="location" placeholder="電子郵件" required="required" value=""></div>
+                <div><input type="text" id="gender" name="gender" placeholder="性別" value=""></div>
+                <button type="submit" class="loginbutton">確定修改</button>
+                <a href="index.html">
+                    <button type="button" class="loginbutton">取消</button>
+                </a>
+            </form>
         </div>
 
-            
-        <div class="footer">
+  <div class="footer">
             <div class="container1">
                 <div class="footer-col2">
                     <img src="../assets/img/img01.jpg">                    
@@ -107,5 +96,6 @@
             </div>
         </div>
     </div>
-</body>
+   <script type="text/javascript" src="../assets/js/star.js"></script>
 </html>
+</body>

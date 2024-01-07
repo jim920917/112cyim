@@ -3,10 +3,12 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>YU weavws</title>
-	<link rel="stylesheet" href="../assets/css/index.css">
-    <link rel="stylesheet" href="../assets/css/history.css">
+    <title>搜尋結果</title>
+	<link rel="stylesheet" href="../assets/css/hw02.css">
+    <link rel="stylesheet" href="../assets/css/index.css">
+    <script type="text/javascript" src="../assets/js/star.js"></script>
 </head>
 <body>
 
@@ -36,7 +38,7 @@
                 </li>		
                 <li><a href="../pages/index.html">Home</a></li>				
                 <li><a href="../pages/hw01.html">Shop</a></li>
-				<li><a href="../pages/team.html">aboutus</a></li>					
+				<li><a href="../pages/team.html">aboutus</a></li>		
             </ul>
         </nav>
             <a href="../pages/cart.html">
@@ -50,38 +52,34 @@
                 <p>YU weavws</p>
             </div>
         </nav>
-		<div class="cart-page">
-            <h3>最新訂單</h3>
-            <table>
-                <tr>
-                    <th>product</th>
-                    <th>Quantity</th>
-                    <th>subtotal</th>
-                </tr>
-                <tr>
-                    <td>
-                        <div class="cart-info">
-                            <img src="../assets/img/img13.jpg">
-                        <div>
-                            <p>🧋珍珠奶茶造型飲料提袋🧋</p>
-                            <small>$400</small>
-                        </div>
-                        </div>
-                    </td>
-                    <td><input type="number" readonly value="1"></td>
-                    <td>$400</td>
-                </tr>
-            </table>
-
-            <div class="row">
-				<div class="check">
-					<a href='shipping.html'>繼續</a>
-				</div>
-			</div>
-        </div>
-
-            
-        <div class="footer">
+    </header>
+<main>
+<
+<script>
+    var slideIndex = 1;
+    showSlides(slideIndex);
+  
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+  
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+  
+    function showSlides(n) {
+      var i;
+      var slides = document.getElementsByClassName("mySlides");
+      if (n > slides.length) { slideIndex = 1; }
+      if (n < 1) { slideIndex = slides.length; }
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";
+      }
+      slides[slideIndex - 1].style.display = "block";
+    }
+</script>
+</main>
+  <div class="footer">
             <div class="container1">
                 <div class="footer-col2">
                     <img src="../assets/img/img01.jpg">                    
