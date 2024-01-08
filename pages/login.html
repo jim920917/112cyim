@@ -15,23 +15,25 @@
     </style>
 </head>
 <body>
-	<form class="login" action="../pages/setup.html" method="POST">
-	<div class="error" style="display: none;">
-		<h3></h3>
-	</div>
-        <h1>Log in 登入</h1>
-        <div class="username">
-			<input id="username" type="text" placeholder="username" name="username"/>
-		</div>
-		<div class="password">
-			<input id="password" type="password" size="35" placeholder="password" name="password"/>
-		</div>
-            <input type="submit" class="loginbutton" value="登入"/>
-		<div class="button">
-		    <a href="../pages/register.html">註冊會員^_^</a>
-		    <a href="../pages/index.html">取消</a>
-		</div>
-    </form>
+	<div class="login">
+        <div class="error" style="display: none;">
+            <h3></h3>
+        </div>
+            <h1>Log in 登入</h1>
+            <div class="username">
+                <input id="username" type="text" placeholder="username" name="username"/>
+            </div>
+            <div class="password">
+                <input id="password" type="password" size="35" placeholder="password" name="password"/>
+            </div>
+            <a href="../pages/setup.html">
+                <input type="submit" class="loginbutton" value="登入"/>
+            </a>
+            <div class="button">
+                <a href="../pages/register.html">註冊會員^_^</a>
+                <a href="../pages/index.html">取消</a>
+            </div>
+    </div>
     </nav>
 </body>
 </html>
